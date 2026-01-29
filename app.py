@@ -113,7 +113,7 @@ with tab1:
     st.info(f"正在顯示 {ticker} 的公司基本資訊與股價摘要...")
     # 這裡將顯示 get_info(ticker) 的結果
     st.subheader("股價走勢")
-    st.plotly_chart(get_dummy_candlestick_chart(ticker), width="container")
+    st.plotly_chart(get_dummy_candlestick_chart(ticker))
 
 with tab2:
     st.header("基本面分析")
